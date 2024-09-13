@@ -11,3 +11,8 @@ The expected sample minute bar is as below. You can adjust the code to cater to 
 | 2024-07-01 07:01:00 | AAL.L | 128 | 2425.0 | 2429.5 | 2420.0 | 2425.5 | 12212 | 2425.881387 | 2425.991103 |
 | 2024-07-01 07:02:00 | AAL.L | 19 | 2427.5 | 2427.5 | 2416.5 | 2416.5 | 1546 | 2418.197930 | 2423.425674 |
 | 2024-07-01 07:03:00 | AAL.L | 83 | 2418.0 | 2418.5 | 2410.5 | 2416.0 | 8590 | 2414.251397 | 2415.928137 |
+
+This example uses backtrader framework, and backtesting would generate results as below:
+
+![backtesting pnl](docs/bt-result.png)
+![backtesting chart](docs/chart-HSBA.L-2024-09-10%2015_37_50.png)
