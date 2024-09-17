@@ -17,4 +17,5 @@ This example uses backtrader framework, and backtesting would generate the tradi
 ![backtesting pnl](docs/bt-result.png)
 ![backtesting chart](docs/chart-HSBA.L-2024-09-10%2015_37_50.png)
 
-Please note that XGBoost is not inherently a time series model. You need to use techniques like sliding windows or lag features to adjust it for time series forecasting. Or you can use time series model such as [GluonTS](https://ts.gluon.ai/stable/). 
+Please note that XGBoost is not inherently a time series model. You need to use techniques like sliding windows or lag features to adjust it for time series forecasting. Or you can use time series model such as [GluonTS](https://ts.gluon.ai/stable/), [ARIMA](https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp) or [SARIMA](https://ieeexplore.ieee.org/document/9609720/), which can handle both stationary and non-stationary time series data to captures complex patterns in data, including trends and seasonality. 
+
